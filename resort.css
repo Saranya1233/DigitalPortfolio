@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  line-height: 80px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 39px;
+  color: rgb(0, 247, 255);
+  margin-left: 100px;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 255, 13);
+  font-size: 18px;
+  transition: 0.5s all ease;
+}
+ul {
+  margin: 0px;
+  margin-right: 100px;
+}
+ul li {
+  float: left;
+  padding: 0px 15px;
+  list-style: none;
+}
+ul li a:hover {
+  color: rgb(255, 0, 200);
+}
+.header {
+  background-image: url("a.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(217, 255, 0);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content h1 {
+  font-size: 50px;
+}
+.content p {
+  padding: 0px 50px;
+  font-size: 20px;
+  color: white;
+}
